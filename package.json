@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-express-mssql",
+  "version": "1.0.0",
+  "description": "Node.js Rest Apis with Express, Mssql",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dozip": "@powershell Compress-Archive -Path D:/jordanDemoProject/* -DestinationPath D:/jordanDemoProject/jordanDemoProject.zip -Update",
+    "delzip": "@powershell del jordanDemoProject.zip",
+    "sendzip": "aws lambda update-function-code --function-name jordanDemoProject --zip-file fileb://jordanDemoProject.zip --profile ComputingYard --region us-east-1",
+    "deploy": "npm run delzip && npm run dozip && npm run sendzip",
+    "doziplinux": "zip -r index *",
+    "deploylinux": "npm run doziplinux && npm run sendzip",
+    "deploywindows": "npm run dozip && npm run sendzip",
+    "downloadzip_comment": "to download alexa code in zip",
+    "downloadzip": "aws lambda get-function --function-name jordanDemoProject"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "rest",
+    "api",
+    "mssql"
+  ],
+  "author": "Muhammad Jawwad Turabi",
+  "dependencies": {
+    "mssql": "^9.0.1"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "typeName": "Query",
+  "fieldName": "quoteApi",
+  "arguments": {  },
+  "identity": {
+    "claims": {
+      "sub": "0a5faf6f-9afd-42a9-a3a7-ac3f540de910",
+      "custom:groupname": "ToothFairyTest",
+      "cognito:groups": [
+        "Admin",
+        "ToothFairyTest"
+      ],
+      "cognito:preferred_role": "arn:aws:iam::711560607865:role/amplify-pegdashboard-test-144557-authRole",
+      "iss": "https://cognito-idp.us-west-2.amazonaws.com/us-west-2_6iUCiz5fX",
+      "cognito:username": "0a5faf6f-9afd-42a9-a3a7-ac3f540de910",
+      "cognito:roles": [
+        "arn:aws:iam::711560607865:role/amplify-pegdashboard-test-144557-authRole"
+      ],
+      "aud": "23q3nnusmrl0mvpu54lushr43f",
+      "event_id": "21d28b8f-1c53-4a82-9cc4-b8b677592686",
+      "token_use": "id",
+      "auth_time": 1618428299,
+      "exp": 1618431899,
+      "iat": 1618428299,
+      "email": "tms.rose@hotmail.com"
+    },
+    "defaultAuthStrategy": "ALLOW",
+    "groups": [
+      "Admin",
+      "ToothFairyTest"
+    ],
+    "issuer": "https://cognito-idp.us-west-2.amazonaws.com/us-west-2_6iUCiz5fX",
+    "sourceIp": [
+      "198.255.66.27"
+    ],
+    "sub": "0a5faf6f-9afd-42a9-a3a7-ac3f540de910",
+    "username": "0a5faf6f-9afd-42a9-a3a7-ac3f540de910"
+  },
+  "source": null,
+  "request": {
+    "headers": {
+      "x-forwarded-for": "198.255.66.27, 130.176.75.144",
+      "sec-ch-ua-mobile": "?0",
+      "cloudfront-viewer-country": "US",
+      "cloudfront-is-tablet-viewer": "false",
+      "via": "2.0 625de659a90e36a729e80cd3fdf6ae3c.cloudfront.net (CloudFront)",
+      "cloudfront-forwarded-proto": "https",
+      "origin": "https://us-west-2.console.aws.amazon.com",
+      "content-length": "122",
+      "accept-language": "en-US,en;q=0.9",
+      "host": "3fkozm7hcbg27mdc5pxrdpn3qe.appsync-api.us-west-2.amazonaws.com",
+      "x-forwarded-proto": "https",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36",
+      "accept": "*/*",
+      "cloudfront-is-mobile-viewer": "false",
+      "cloudfront-is-smarttv-viewer": "false",
+      "accept-encoding": "gzip, deflate, br",
+      "referer": "https://us-west-2.console.aws.amazon.com/",
+      "content-type": "application/json",
+      "sec-fetch-mode": "cors",
+      "x-amz-cf-id": "zV8NzbKs-fi0nNawQZSkCEybLJ7LMAkl1Mz39_wuP1wYtA5TJ7MHzQ==",
+      "x-amzn-trace-id": "Root=1-607749a1-2d4c48d71837847b20db96e5",
+      "authorization": "eyJraWQiOiJhTW9CXC9YekwwMWhOVUFsa242RW8wVEpFZHc3UDJtclRuMWt2Zlh1dmhZYz0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwYTVmYWY2Zi05YWZkLTQyYTktYTNhNy1hYzNmNTQwZGU5MTAiLCJjdXN0b206Z3JvdXBuYW1lIjoiVG9vdGhGYWlyeVRlc3QiLCJjb2duaXRvOmdyb3VwcyI6WyJBZG1pbiIsIlRvb3RoRmFpcnlUZXN0Il0sImNvZ25pdG86cHJlZmVycmVkX3JvbGUiOiJhcm46YXdzOmlhbTo6NzExNTYwNjA3ODY1OnJvbGVcL2FtcGxpZnktcGVnZGFzaGJvYXJkLXRlc3QtMTQ0NTU3LWF1dGhSb2xlIiwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLnVzLXdlc3QtMi5hbWF6b25hd3MuY29tXC91cy13ZXN0LTJfNmlVQ2l6NWZYIiwiY29nbml0bzp1c2VybmFtZSI6IjBhNWZhZjZmLTlhZmQtNDJhOS1hM2E3LWFjM2Y1NDBkZTkxMCIsImNvZ25pdG86cm9sZXMiOlsiYXJuOmF3czppYW06OjcxMTU2MDYwNzg2NTpyb2xlXC9hbXBsaWZ5LXBlZ2Rhc2hib2FyZC10ZXN0LTE0NDU1Ny1hdXRoUm9sZSJdLCJhdWQiOiIyM3Ezbm51c21ybDBtdnB1NTRsdXNocjQzZiIsImV2ZW50X2lkIjoiMjFkMjhiOGYtMWM1My00YTgyLTljYzQtYjhiNjc3NTkyNjg2IiwidG9rZW5fdXNlIjoiaWQiLCJhdXRoX3RpbWUiOjE2MTg0MjgyOTksImV4cCI6MTYxODQzMTg5OSwiaWF0IjoxNjE4NDI4Mjk5LCJlbWFpbCI6InRtcy5yb3NlQGhvdG1haWwuY29tIn0.cGOAWlF4oUz5VPHMfTH1Hxr0GAeSIaF5kone6v1nXkiZZJjdPDGfr6vKZO8E-KInIpMw_r--5_gkegjp-w6KDQ-Pmk9hnp0Usw-jWwzxdi1Scbv6uaHXwmB4l36WRbwczwEf2Sr6lEUsW_FpkchQpjg0jSd-OScdiXqQVdt7JhmMjVOuW6LUOq8gcpsixNLQ3iZJZdJ9LVHtOj9KSqRYC1iSbHD-zUcgxFqZS9X8ZxF8ta_oYxtvMJxWBWDK4dqdPRhnqZ3JpPa1B0rz8kTXsvP3bQ27FisrabxLCxmMZoXNhaMNcAY7tE3x9XtiLALnXuBvjfzXrZ3lXc8owh2pyQ",
+      "sec-fetch-dest": "empty",
+      "x-amz-user-agent": "AWS-Console-AppSync/",
+      "cloudfront-is-desktop-viewer": "true",
+      "sec-fetch-site": "cross-site",
+      "sec-ch-ua": "\"Google Chrome\";v=\"87\", \" Not;A Brand\";v=\"99\", \"Chromium\";v=\"87\"",
+      "x-forwarded-port": "443"
+    }
+  },
+  "prev": {
+    "result": {}
+  }
+}
